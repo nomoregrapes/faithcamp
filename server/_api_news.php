@@ -1,1 +1,1 @@
-Welcome to the Newday Info App.
+Welcome to the Faith Camp Info App.
