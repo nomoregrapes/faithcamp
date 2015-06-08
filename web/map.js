@@ -38,51 +38,37 @@
 		}
 
 		function styleUpLayer(layer) {
-			if (layer.toGeoJSON().properties.cat === 'green') {
+			if (layer.toGeoJSON().properties.category === 'yellow') {
 				layer.setStyle({
 					fillColor: "#4daf4a",
 					fillOpacity: 0.8,
 					stroke: false
 				})
 			}
-			else if (layer.toGeoJSON().properties.cat === 'blue') {
+			else if (layer.toGeoJSON().properties.category === 'blue') {
 				layer.setStyle({
 					fillColor: "#377eb8",
 					fillOpacity: 0.8,
 					stroke: false
 				})
 			}
-			else if (layer.toGeoJSON().properties.cat === 'red') {
+			else if (layer.toGeoJSON().properties.category === 'green') {
 				layer.setStyle({
 					fillColor: "#e41a1c",
 					fillOpacity: 0.8,
 					stroke: false
 				})
 			}
-			else if (layer.toGeoJSON().properties.cat === 'purple') {
+			else if (layer.toGeoJSON().properties.category === 'red') {
 				layer.setStyle({
 					fillColor: "#984ea3",
 					fillOpacity: 0.8,
 					stroke: false
 				})
 			}
-			else if (layer.toGeoJSON().properties.cat === 'yellow') {
+			else if (layer.toGeoJSON().properties.category === 'children') {
 				layer.setStyle({
-					fillColor: "#ffff33",
-					fillOpacity: 0.8,
-					stroke: false
-				})
-			}
-			else if (layer.toGeoJSON().properties.cat === 'cafe') {
-				layer.setStyle({
-					fillColor: "#f781bf",
-					fillOpacity: 0.8,
-					stroke: false
-				})
-			}
-			else if (layer.toGeoJSON().properties.cat === 'venue') {
-				layer.setStyle({
-					fillColor: "#a65628",
+					fillColor: "#ff6600",
 					fillOpacity: 0.8,
 					stroke: false
 				})
