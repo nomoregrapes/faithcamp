@@ -6,7 +6,7 @@
 		var lineSatnav;
 
 		function getStuffLocations() {
-			var data = 'bbox=' + map.getBounds().toBBoxString();
+			var data = '';
 			$.ajax({
 					url: 'data/camping-zones.geojson',
 					dataType: 'json',
@@ -107,7 +107,7 @@
 		$( document ).ready(function() {
 			//load map
 
-			map = L.map('map').setView([52.64905, 1.17722], 16); //default location, Newday
+			map = L.map('map').setView([52.5453,-0.3162], 16); //default location, Faith Camp (Peterborough)
 
 			//geolocate
 			//map.locate({setView: true, maxZoom: 19});
@@ -151,7 +151,7 @@
 				}
 				updateNavLine(e.latlng);
 			}
-			map.on('locationfound', onLocationFound);
+			//map.on('locationfound', onLocationFound);
 
 			//every 5secs, find where you are
 			setInterval(function(){ 
