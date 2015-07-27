@@ -1,5 +1,5 @@
 
-apibase = "http://www.livingwithdragons.com/maps/newday";
+apibase = "http://www.livingwithdragons.com/maps/faithcamp";
 //apibase = "http://localhost/livingwithdragons/maps/newday";
 
 $(document).ready(function(){
@@ -46,7 +46,7 @@ var searchData;
 $(function() {
 	$('#search').prop('disabled', true);
 	$.ajax({
-		url: "data/church-camps.geojson",
+		url: "data/camping-zones.geojson",
 		dataType: "json"
 	}).done( function(data) {
 		searchData = data.features;
