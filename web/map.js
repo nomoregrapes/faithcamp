@@ -96,7 +96,7 @@
 			map = L.map('map').setView([52.5453,-0.3162], 16); //default location, Faith Camp (Peterborough)
 
 			//geolocate
-			//map.locate({setView: true, maxZoom: 19});
+			map.locate({setView: true, maxZoom: 19});
 
 			//more base layers
 			/*
