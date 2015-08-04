@@ -1,7 +1,7 @@
 
 faithcamp
 ======
-A handy (unofficial) web app for Faith Camp event.
+A handy (unofficial) web app for Faith Camp event. The app is [available online](http://www.livingwithdragons.com/maps/faithcamp/) and you can use the short URL [bit.ly/faithcamp](http://bit.ly/faithcamp).
 
 2015 will be my first year at [Faith Camp](http://www.kingdomfaith.com/FaithCamp/default.aspx) and so I've copied my [Unofficial Newday App](https://github.com/nomoregrapes/newday) to use it for Faith Camp.
 
